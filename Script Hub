@@ -1,0 +1,28 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("script by b4stizzy101", "Midnight")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+--Buttons Main
+MainSection:NewButton("Infinite Yield", "stfubozo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+MainSection:NewButton("Simple Spy", "Stfu Bozo", function()
+    loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+end)
+
+MainSection:NewButton("Survival Game 1", "stfu bozo", function()
+    	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Survival808/main/SurvivalGame4"))()
+end)
+
+MainSection:NewButton("Survival Game 2", "stfu bozo", function()
+    	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dillplays/First-Script-Hub/main/The%20survival%20game2"))()
+end)
+
+MainSection:NewButton("Universal SilentAim", "stfu bozo", function()
+    	loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua"))()
+end)
