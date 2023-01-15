@@ -26,3 +26,7 @@ end)
 MainSection:NewButton("Universal ESP", "Stfu Bozo", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))()
 end)
+
+MainSection:NewButton("The Survival Game2", "Stfu Bozo", function()
+        loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/qxkya/Kya-Ware/main/TheSurvivalGame.lua"))() "))()
+end)
