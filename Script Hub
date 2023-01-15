@@ -16,7 +16,7 @@ MainSection:NewButton("Simple Spy", "Stfu Bozo", function()
 end)
 
 MainSection:NewButton("Survival Game 1", "stfu bozo", function()
-    	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Survival808/main/SurvivalGame4"))()
+    	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/SurvivalGame/main/Roblox9012"))()
 end)
 
 MainSection:NewButton("Survival Game 2", "stfu bozo", function()
